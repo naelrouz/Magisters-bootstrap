@@ -75,7 +75,13 @@ a.btn-spoiler:after {
 	}
 }
 
+.breadcrumb > li + li::before {
+    padding: 0px 5px;
+    color: #CCC;
+    content: "";
+    font-family: FontAwesome;
 
+}
 
 
 
